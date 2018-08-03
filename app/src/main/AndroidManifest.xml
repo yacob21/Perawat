@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.perawat.yacob.perawat">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity
+            android:name="com.perawat.yacob.perawat.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="perawat.com"
+                    android:pathPrefix="/detail"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.perawat.yacob.perawat.PengkajianAwalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.PengkajianAwalActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.PengkajianAwalActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.PengkajianAwalActivity4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.PengkajianAwalActivity5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.perawat.yacob.perawat.PenempatanTugasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.PenempatanTugasPerawatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.DetailPasienActivity"
+            android:label="@string/title_activity_detail_pasien"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.perawat.yacob.perawat.ResepActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.DetailResepActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.ProfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.UbahProfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.UbahPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.ActivityTTV"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.PemberianObat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.PesanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.perawat.yacob.perawat.BarcodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.perawat.yacob.perawat.ResetPasswordActivity"></activity>
+    </application>
+
+</manifest>

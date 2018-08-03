@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "564528931710",
+    "firebase_url": "https://dokter-b7f28.firebaseio.com",
+    "project_id": "dokter-b7f28",
+    "storage_bucket": "dokter-b7f28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564528931710:android:c9a3c56f77b5abc9",
+        "android_client_info": {
+          "package_name": "com.perawat.yacob.perawat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564528931710-uie3ejip7e9n34r943kmunbepuuescvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAedIpCvhIyjI4rvlWvQwDhIoPYDr1TQEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

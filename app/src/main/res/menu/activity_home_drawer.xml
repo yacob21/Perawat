@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navBeranda"
+            android:icon="@drawable/home_icon"
+            android:title="Beranda" />
+        <!--<item-->
+            <!--android:id="@+id/navResep"-->
+            <!--android:icon="@drawable/resep_ico"-->
+            <!--android:title="Resep" />-->
+        <item
+            android:id="@+id/navTugas"
+            android:icon="@drawable/tindakan_ico"
+            android:title="Penempatan tugas" />
+        <!--<item-->
+            <!--android:id="@+id/navDischarge"-->
+            <!--android:icon="@drawable/discharge"-->
+            <!--android:title="Discharge" />-->
+        <item
+            android:id="@+id/navKeluar"
+            android:icon="@drawable/keluar_icon"
+            android:title="Keluar" />
+
+    </group>
+</menu>

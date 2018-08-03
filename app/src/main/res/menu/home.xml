@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnProfil"
+        android:orderInCategory="100"
+        android:title="Profil"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/btnPenempatanTugas"
+        android:orderInCategory="100"
+        android:title="Penempatan Tugas"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/btnPasienDarurat"
+        android:orderInCategory="100"
+        android:title="Pasien Darurat"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/btnKeluar"
+        android:orderInCategory="100"
+        android:title="Keluar"
+        app:showAsAction="collapseActionView" />
+
+</menu>
